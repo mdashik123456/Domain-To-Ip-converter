@@ -16,9 +16,29 @@ A simple Python tool to convert a domain name to its IP address. This tool uses 
    git clone https://github.com/mdashik123456/Domain-To-Ip-converter.git
    cd domain-to-ip-converter
 
-2. **Install the package
+2. **Installing Packages**
+
          pip install -r requirements.txt
    
 ## Usage
-      python domain_to_ip.py
+      python main.py
+
+## Output
+
+```plaintext
+ ____                        _         _____       ___ ____  
+|  _ \  ___  _ __ ___   __ _(_)_ __   |_   _|__   |_ _|  _ \ 
+| | | |/ _ \| '_ ` _ \ / _` | | '_ \    | |/ _ \   | || |_) |
+| |_| | (_) | | | | | | (_| | | | | |   | | (_) |  | ||  __/ 
+|____/ \___/|_| |_| |_|\__,_|_|_| |_|   |_|\___/  |___|_|    
+                                                             
+
+coded by 0xF0tRes
+
+
+
+Enter domain name (eg: google.com): google.com
+The IP Address is: <google ip>
+
+
 
