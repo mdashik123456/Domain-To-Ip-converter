@@ -18,10 +18,10 @@ A simple Python tool to convert a domain name to its IP address. This tool uses 
 
 2. **Installing Packages**
 
-         pip install -r requirements.txt
+         pip3 install -r requirements.txt
    
 ## Usage
-      python main.py
+      python3 main.py
 
 ## Output
 
@@ -38,7 +38,11 @@ coded by 0xF0tRes
 
 
 Enter domain name (eg: google.com): google.com
-The IP Address is: <google ip>
+The IP Address is: <google ip>`
+```
 
-
-
+## Error Handling
+If an invalid domain is entered, the tool will display:
+```plaintext
+Invalid domain name or domain is not found!!
+```
