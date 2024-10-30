@@ -13,6 +13,12 @@ A simple Python tool to convert a domain name to its IP address. This tool uses 
 1. **Clone this repository:**
 
    ```bash
-   git clone https://github.com/your-username/domain-to-ip-converter.git
+   git clone https://github.com/mdashik123456/Domain-To-Ip-converter.git
    cd domain-to-ip-converter
-  ```
+
+2. **Install the package
+         pip install -r requirements.txt
+   
+## Usage
+      python domain_to_ip.py
+
